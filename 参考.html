@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>百度首页</title>
+  <style>
+    /* 全局重置 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Microsoft Yahei", sans-serif;
+    }
+
+    /* 让页面整体垂直+水平居中 */
+    html,
+    body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+    }
+
+    /* 顶部导航栏 */
+    .top-nav {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 13px;
+    }
+
+    .top-nav a {
+      margin-left: 15px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .top-nav a:hover {
+      color: #0066cc;
+    }
+
+    /* 百度Logo */
+    .logo {
+      width: 270px;
+      height: 129px;
+      margin-bottom: 20px;
+      background: url("https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png") no-repeat center;
+      background-size: contain;
+    }
+
+    /* 搜索表单容器 */
+    .search-form {
+      display: flex;
+      width: 640px;
+      height: 44px;
+      border: 1px solid #dfe1e5;
+      border-radius: 24px;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+
+    /* 搜索输入框 */
+    .search-input {
+      flex: 1;
+      border: none;
+      outline: none;
+      padding: 0 20px;
+      font-size: 16px;
+    }
+
+    /* 百度一下按钮 */
+    .search-btn {
+      width: 108px;
+      background-color: #4e6ef2;
+      color: #fff;
+      border: none;
+      font-size: 17px;
+      cursor: pointer;
+    }
+
+    .search-btn:hover {
+      background-color: #4662d0;
+    }
+
+    /* 二维码区域 */
+    .qrcode {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .qrcode img {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 8px;
+    }
+
+    .qrcode p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    /* 底部链接 */
+    .footer-links {
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+    }
+
+    .footer-links a {
+      color: #999;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    .footer-links a:hover {
+      color: #333;
+    }
+
+    .copyright {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 顶部导航 -->
+  <div class="top-nav">
+    <a href="#">新闻</a>
+    <a href="#">hao123</a>
+    <a href="#">地图</a>
+    <a href="#">视频</a>
+    <a href="#">贴吧</a>
+    <a href="#">学术</a>
+    <a href="#">登录</a>
+    <a href="#">设置</a>
+    <a href="#" style="color: #fff; background-color: #4e6ef2; padding: 4px 8px; border-radius: 4px;">更多产品</a>
+  </div>
+
+  <!-- 百度Logo -->
+  <div class="logo"></div>
+
+  <!-- 搜索表单 -->
+  <form class="search-form" action="https://www.baidu.com/s" method="get">
+    <input type="text" class="search-input" name="wd" placeholder="">
+    <button type="submit" class="search-btn">百度一下</button>
+  </form>
+
+  <!-- 二维码区域 -->
+  <div class="qrcode">
+    <img
+      src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fbpic.588ku.com%2Fback_origin_min_pic%2F19%2F08%2F02%2F08888280585d39188221ed1b854b4b49.jpg&refer=http%3A%2F%2Fbpic.588ku.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1719821233&t=876b866d36b3d3d3d3d3d3d3d3d3d3d3"
+      alt="下载百度APP">
+    <p>下载百度APP</p>
+    <p style="font-size: 13px; margin-top: 5px;">有事搜一搜，没事看一看</p>
+  </div>
+
+  <!-- 底部链接 -->
+  <div class="footer-links">
+    <a href="#">把百度作为首页</a>
+    <a href="#">关于百度</a>
+    <a href="#">About Baidu</a>
+    <a href="#">百度推广</a>
+    <div class="copyright">
+      &copy;2019_Baidu 使用百度前必读 意见反馈 ****证********号 KC制作__hhhhhhhhhh号
+    </div>
+  </div>
+  <div class="a"></div>
+  <div id="a"></div>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  ul>*
+  <!-- <ul>
+    <li class="tem"></li>
+    <li class="tem"></li>
+    <li class="tem"></li>
+  </ul>
+  <ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li> -->
+  <!-- </ul> -->
+</body>
+
+</html>

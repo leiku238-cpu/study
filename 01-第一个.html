@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .rounded-box {
+      border-radius: 20px;
+      /* 所有角10px圆角 */
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>我的第一个标题</h2>
+  <p>好难记啊</p>
+  <h3>我的第一个副标题</h3>
+  <p>我的图片</p>
+  <img src="我的图片/QQ20260205-171435.png" alt="图片加载失败" title="后室" height="200">
+  <div style="background-color: pink;height: 100px; width: 120px;" class="rounded-box">你好</div>
+
+  <a href="https://www.baidu.com/index.php?tn=68018901_58_oem_dg">点我跳转百度</a>
+  <ul>
+    <li>列表1</li>
+    <li>列表2</li>
+    <li>列表3</li>
+  </ul>
+  <hr>
+  <form action="">
+    <input type="text" placeholder="请输入文本" style="width: 300px;">
+
+    <button>按钮</button>
+  </form>
+  <form action="">
+    <table border="1" width="400" height="120" cellpadding="0" cellspacing="0">
+      <tr>
+        <td style="text-align: center;">用户名：</td>
+        <td><input type="text" placeholder="请输入用户名" name="用户名"></td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">密码：</td>
+        <td><input type="password" placeholder="请输入密码" name="密码"></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center;"><button>登录</button><button type="reset">重置</button></td>
+      </tr>
+    </table>
+  </form>
+  <!-- haonan好难记啊 -->
+  <div>接下来自我介绍</div>
+  <form action="">
+    性别: 男<input type="radio" name="gender" value="male">
+    女<input type="radio" name="gender" value="female">
+    城市 <select name="city">
+      <option value="beijing">北京</option>
+      <option value="shanghai">上海</option>
+      <option value="guangzhou">广州</option>
+      <option value="chengdu">成都</option>
+      <option value="chongqing" selected>重庆</option>
+    </select>
+    爱好： <input type="checkbox" name="hobby" value="reading"> 阅读
+    <input type="checkbox" name="hobby" value="traveling"> 旅行
+    <input type="checkbox" name="hobby" value="playing"> 玩耍
+    <input type="checkbox" name="hobby" value="singing"> 唱歌
+    <br>
+    目标: <textarea name="goal" rows="4" cols="50" style="height: 100px;" placeholder="加入前端"></textarea>
+
+  </form>
+
+
+
+
+
+</body>
+
+</html>
